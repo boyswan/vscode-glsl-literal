@@ -24,6 +24,9 @@
     "glsl",
     "template"
   ],
+  "extensionDependencies": [
+      "slevesque.shader"
+    ],
   "contributes": {
     "grammars": [
       {

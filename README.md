@@ -22,3 +22,12 @@ const vert = glsl`
 `;
 
 ```
+
+## Caveat
+
+If you're not using glslify or another glsl processing library, you will need an identity function named as above to match the syntax.
+
+```js
+const glsl = x => x;
+```
+

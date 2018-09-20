@@ -1,14 +1,14 @@
 vscode-glsl-literal
 ====================
 
-Adds language support for GLSL for JavaScript and TypeScript template literals.
+Adds GLSL syntax highlighting for JavaScript template literals.
 
 ## Match on 
 
 ```js
 glsl`` | glslify`` | frag`` | vert``
-
 ```
+
 ## Example
 
 ```js

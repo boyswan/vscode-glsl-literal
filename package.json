@@ -8,7 +8,7 @@
     "url": "https://github.com/boyswan/vscode-glsl-literal.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-glsl-litearl/issues"
+    "url": "https://github.com/boyswan/vscode-glsl-literal/issues"
   },
   "engines": {
     "vscode": "^1.15.0"

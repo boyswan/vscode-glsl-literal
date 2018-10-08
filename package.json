@@ -30,7 +30,9 @@
         "injectTo": [
           "source.js",
           "source.js.jsx",
-          "source.jsx"
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
         ],
         "scopeName": "glsl-literal",
         "path": "./syntaxes/glsl-literal.json",

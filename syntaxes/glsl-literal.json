@@ -3,7 +3,7 @@
   "injectionSelector": "L:source -comment -string",
   "patterns": [
     {
-      "begin": "(?:([sS][tT][yY][lL][eE][dD](?:<[_$[:alpha:]][_$[[:alnum:][, '\"]]]+>)?(?:\\.[_$[:alpha:]][_$[:alnum:]]*|\\(['\"][_$[:alpha:]][_$[:alnum:]]*['\"]\\)|\\([_$[:alpha:]][_$\\.[:alnum:]]*(?:\\s+as\\s+.*?)?\\)))|(glsl|vert|frag))\\s*(`)",
+      "begin": "(?:([sS][tT][yY][lL][eE][dD](?:<[_$[:alpha:]][_$[[:alnum:][, '\"]]]+>)?(?:\\.[_$[:alpha:]][_$[:alnum:]]*|\\(['\"][_$[:alpha:]][_$[:alnum:]]*['\"]\\)|\\([_$[:alpha:]][_$\\.[:alnum:]]*(?:\\s+as\\s+.*?)?\\)))|(glsl|glslify|vert|frag))\\s*(`)",
       "beginCaptures": {
         "1": {
           "patterns": [

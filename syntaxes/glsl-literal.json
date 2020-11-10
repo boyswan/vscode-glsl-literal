@@ -3,7 +3,7 @@
   "injectionSelector": "L:source -comment -string",
   "patterns": [
     {
-      "begin": "(glsl|glslify|vert|frag|\/\* ?glsl ?\*\/)(`)|(`)\/\/(inline|glsl)",
+      "begin": "(GLSL|glsl|glslify|vert|frag|\/\* ?glsl ?\*\/)(`)|(`)\/\/(inline|glsl)",
       "beginCaptures": {
         "1": {
           "patterns": [

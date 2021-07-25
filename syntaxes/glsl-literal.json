@@ -1,5 +1,5 @@
 {
-  "fileTypes": ["js", "jsx", "ts"],
+  "fileTypes": ["js", "jsx", "ts", "tsx", "vue", "mjs", "html"],
   "injectionSelector": "L:source -comment -string",
   "patterns": [
     {

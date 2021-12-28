@@ -31,3 +31,8 @@ If you're not using glslify or another glsl processing library, you will need an
 const glsl = x => x;
 ```
 
+Alternatively now you can instead use a block comment before the literals to achieve the same thing.
+
+```js
+/*glsl*/``
+```

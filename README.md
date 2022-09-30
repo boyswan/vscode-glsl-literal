@@ -28,7 +28,7 @@ const vert = glsl`
 If you're not using glslify or another glsl processing library, you will need an identity function named as above to match the syntax.
 
 ```js
-const glsl = x => x;
+const glsl = x => x[0];
 ```
 
 Alternatively now you can instead use a block comment before the literals to achieve the same thing.

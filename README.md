@@ -29,6 +29,9 @@ If you're not using glslify or another glsl processing library, you will need an
 
 ```js
 const glsl = x => x[0];
+
+// or
+const glsl = String.raw;
 ```
 
 Alternatively now you can instead use a block comment before the literals to achieve the same thing.

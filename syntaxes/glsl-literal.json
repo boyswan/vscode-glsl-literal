@@ -27,6 +27,9 @@
       },
       "patterns": [
         {
+          "include": "source.js#template-substitution-element"
+        },
+        {
           "include": "source.glsl"
         }
       ]
